@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="super_calc_hacettepe",                     # This is the name of the package
-    version="0.0.25",                        # The initial release version
+    version="0.0.30",                        # The initial release version
     author="Atahan Çelebi",                     # Full name of the author
     description="Quicksample HACETTEPE",
     long_description=long_description,      # Long description read from the the readme file
