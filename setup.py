@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="super_calc_hacettepe",                     # This is the name of the package
-    version="0.0.30",                        # The initial release version
+    version="0.1.0",                        # The initial release version
     author="Atahan Çelebi",                     # Full name of the author
     description="Quicksample HACETTEPE",
     long_description=long_description,      # Long description read from the the readme file
@@ -26,7 +26,7 @@ setuptools.setup(
     package_dir={'':'src'},     # Directory of the source code of the package
     install_requires=['pysal >= 2.0.0'],                     # Install other dependencies if any
     package_data={'': ['yazilar.txt'],'super_calc_hacettepe':['test/*']},
-    download_url='https://github.com/AtahanCelebi/super_calc_ata/archive/refs/tags/0.0.25.tar.gz',
+    download_url='https://github.com/AtahanCelebi/super_calc_ata/archive/refs/tags/0.1.0.tar.gz',
     url = 'https://github.com/AtahanCelebi/super_calc_ata'
 )
 
