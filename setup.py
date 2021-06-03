@@ -25,8 +25,8 @@ setuptools.setup(
                  # Name of the python package
     package_dir={'':'src'},     # Directory of the source code of the package
     install_requires=['pysal >= 2.0.0'],                     # Install other dependencies if any
-    package_data={'': ['yazilar.txt'],'super_calc_hacettepe':['test/*']}
-    download_url='https://github.com/AtahanCelebi/super_calc_ata/archive/refs/tags/0.0.25.tar.gz'
+    package_data={'': ['yazilar.txt'],'super_calc_hacettepe':['test/*']},
+    download_url='https://github.com/AtahanCelebi/super_calc_ata/archive/refs/tags/0.0.25.tar.gz',
     url = 'https://github.com/AtahanCelebi/super_calc_ata'
 )
 
